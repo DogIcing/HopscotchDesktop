@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script src="https://pixijs.download/release/pixi.js"></script>
+<script>
+const app = new PIXI.Application({ background: '#1099bb' });
+document.body.appendChild(app.view);
+
+const basicText = new PIXI.Text('Set Position');
+basicText.x = 300;
+basicText.y = 100;
+
+app.stage.addChild(basicText);
+
+function setPosition(){
+let setx = window.prompt('x');
+let sety = window.prompt('y');
+basicText.x = setx;
+basicText.y = sety;
+}
+</script>
+<button onclick="setPosition()">Set Position</button>
+</body>
+
+</html>
