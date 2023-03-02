@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script src="https://pixijs.download/release/pixi.js"></script>
+<script>
+let moveby = window.prompt('Move by');
+
+const app = new PIXI.Application({ background: '#1099bb' });
+document.body.appendChild(app.view);
+const basicText = new PIXI.Text('Move Forward');
+basicText.x = 50;
+basicText.y = 100;
+
+app.stage.addChild(basicText);
+
+for (let i = 1; i < moveby; i++) {
+  setTimeout(function timer() {
+    requestAnimationFrame(update);
+  }, i * 10);
+}
+
+function update() {
+    basicText.position.x += 1;
+    app.render(app.stage);
+}
+</script>
+</body>
+
+</html>
