@@ -8,6 +8,8 @@ const app = new PIXI.Application({ background: '#1099bb' });
 document.body.appendChild(app.view);
 
 const basicText = new PIXI.Text('Set Position');
+basicText.anchor.x = 0.5;
+basicText.anchor.y = 0.5;
 basicText.x = 300;
 basicText.y = 100;
 
