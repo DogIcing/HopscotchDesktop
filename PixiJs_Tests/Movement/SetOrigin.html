@@ -7,20 +7,20 @@
 const app = new PIXI.Application({ background: '#1099bb' });
 document.body.appendChild(app.view);
 
-const basicText = new PIXI.Text('Set Position');
+const basicText = new PIXI.Text('Set Origin');
 basicText.x = 300;
 basicText.y = 100;
 
 app.stage.addChild(basicText);
 
-function setPosition(){
+function setOrigin(){
 let setx = window.prompt('x');
 let sety = window.prompt('y');
 basicText.x = setx;
-basicText.y = app.renderer.width - sety;
+basicText.y = app.renderer.height - sety;
 }
 </script>
-<button onclick="setPosition()">Set Position</button>
+<button onclick="setOrigin()">Set Origin</button>
 </body>
 
 </html>
