@@ -10,7 +10,7 @@ const app = new PIXI.Application({ background: '#1099bb' });
 document.body.appendChild(app.view);
 const basicText = new PIXI.Text('Move Forward');
 basicText.x = 50;
-basicText.y = 10;
+basicText.y = 400;
 
 app.stage.addChild(basicText);
 
@@ -21,7 +21,7 @@ for (let i = 1; i < moveby; i++) {
 }
 
 function update() {
-    basicText.position.y += 1;
+    basicText.position.y -= 1;
     app.render(app.stage);
 }
 </script>
