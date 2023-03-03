@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script src="https://pixijs.download/release/pixi.js"></script>
+<script>
+let colour = window.prompt('Colour (Hex incl. #)');
+const app = new PIXI.Application({ background: "#1099bb" });
+document.body.appendChild(app.view);
+
+const container = new PIXI.Container();
+
+app.stage.addChild(container);
+
+const basicText = new PIXI.Text('Set Text');
+basicText.x = 50;
+basicText.y = 100;
+
+basicText.style.fill = colour;
+
+app.stage.addChild(basicText);
+</script>
+</body>
+
+</html>
