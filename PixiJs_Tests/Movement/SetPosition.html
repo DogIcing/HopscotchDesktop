@@ -19,7 +19,7 @@ function setPosition(){
 let setx = window.prompt('x');
 let sety = window.prompt('y');
 basicText.x = setx;
-basicText.y = sety;
+basicText.y = app.renderer.height - sety;
 }
 </script>
 <button onclick="setPosition()">Set Position</button>
