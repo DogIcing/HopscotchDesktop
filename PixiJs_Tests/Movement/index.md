@@ -1,17 +1,17 @@
 # PixiJs Tests : Movement
 ## Tests
 <b>Movement</b>
-* [Move Forward](/PixiJs_Tests/Movement/MoveForward.html)
-* [Change X By](/PixiJs_Tests/Movement/ChangeXBy.html)
-* [Change Y By](/PixiJs_Tests/Movement/ChangeYBy.html)
+* [Move Forward](/HopscotchDesktop/PixiJs_Tests/Movement/MoveForward.html)
+* [Change X By](/HopscotchDesktop/PixiJs_Tests/Movement/ChangeXBy.html)
+* [Change Y By](/HopscotchDesktop/PixiJs_Tests/Movement/ChangeYBy.html)
 
 <b>Angle</b>
-* [Set Angle](/PixiJs_Tests/Movement/SetAngle.html)
-* [Turn](/PixiJs_Tests/Movement/Turn.html)
+* [Set Angle](/HopscotchDesktop/PixiJs_Tests/Movement/SetAngle.html)
+* [Turn](/HopscotchDesktop/PixiJs_Tests/Movement/Turn.html)
 
 <b>Position</b>
-* [Set Origin](/PixiJs_Tests/Movement/SetOrigin.html)
-* [Set Position](/PixiJs_Tests/Movement/SetPosition.html)
+* [Set Origin](/HopscotchDesktop/PixiJs_Tests/Movement/SetOrigin.html)
+* [Set Position](/HopscotchDesktop/PixiJs_Tests/Movement/SetPosition.html)
 
 <b>Other</b>
-* [Flip](/PixiJs_Tests/Movement/Flip.html)
+* [Flip](/HopscotchDesktop/PixiJs_Tests/Movement/Flip.html)
