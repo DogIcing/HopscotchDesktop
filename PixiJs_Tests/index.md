@@ -1,4 +1,4 @@
 # PixiJs Tests
 ### Links
-* [Notes](/PixiJs_Tests/Notes.md)
-* [Movement](/PixiJs_Tests/Movement)
+* [Notes](/HopscotchDesktop/PixiJs_Tests/Notes)
+* [Movement](/HopscotchDesktop/PixiJs_Tests/Movement)
