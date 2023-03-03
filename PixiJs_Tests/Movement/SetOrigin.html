@@ -10,7 +10,8 @@ document.body.appendChild(app.view);
 const basicText = new PIXI.Text('Set Origin');
 basicText.x = 300;
 basicText.y = 100;
-
+basicText.anchor.x = 0;
+basicText.anchor.y = 1;
 app.stage.addChild(basicText);
 
 function setOrigin(){
