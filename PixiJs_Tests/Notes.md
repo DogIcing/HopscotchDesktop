@@ -13,4 +13,10 @@
     <td>2/5</td>
     <td>Not Sure How To Implement As A Test</td>
   </tr>
+  <tr>
+    <td>Looks & Sound</td>
+    <td>Set Image</td>
+    <td>2/5</td>
+    <td>Not Sure How To Implement As A Test</td>
+  </tr>
 </table>
