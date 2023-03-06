@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script src="https://pixijs.download/release/pixi.js"></script>
+<script>
+text = window.prompt('text');
+const app = new PIXI.Application({ background: "#1099bb" });
+document.body.appendChild(app.view);
+
+const container = new PIXI.Container();
+
+app.stage.addChild(container);
+
+const basicText = new PIXI.Text(text);
+basicText.x = 50;
+basicText.y = 100;
+
+app.stage.addChild(basicText);
+</script>
+</body>
+
+</html>
