@@ -1,0 +1,31 @@
+name: PixiJS Tests TODO
+description: Add a Todo for PixiJs Tests
+title: "PixiJsTests: "
+labels: ["todo"]
+assignees:
+  - DogIcing
+body:
+  - type: input
+    id: category
+    attributes:
+      label: Block Category
+      description: Which category is the block in?
+      placeholder: Movement
+    validations:
+      required: false
+  - type: input
+    id: name
+    attributes:
+      label: Block Name
+      description: What is the name of the block?
+      placeholder: Move Forward
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Any Notes?
+      description: Do you have anything else to add?
+      placeholder: Notes?
+    validations:
+      required: false
