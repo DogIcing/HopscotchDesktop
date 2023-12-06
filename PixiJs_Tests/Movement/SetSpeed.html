@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script src="https://pixijs.download/release/pixi.js"></script>
+<script>
+let moveby = window.prompt('Move by');
+const app = new PIXI.Application({ background: '#1099bb' });
+document.body.appendChild(app.view);
+
+const basicText = new PIXI.Text('Moving 100');
+basicText.x = 300;
+basicText.y = 100;
+basicText.anchor.x = 0.5;
+app.stage.addChild(basicText);
+basicText.scale.x *= -1;
+
+for (let i = 1; i < moveby; i++) {
+  setTimeout(function timer() {
+requestAnimationFrame(update);
+  }, 300);
+}
+
+
+function update() {
+    if (basicText.scale.x == -1) {
+        basicText.position.x -= 1;
+    } else {
+        basicText.position.x += 1;
+    }
+
+    app.render(app.stage);
+}
+</script>
+</body>
+
+</html>
